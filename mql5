@@ -1,0 +1,55 @@
+mql5
+//+------------------------------------------------------------------+
+//|                                                                  |
+//|                                                                  |
+//|                                                   forexroboteasy.com              |
+//|                                                                  |
+//|                                                                  |
+//+------------------------------------------------------------------+
+
+#property copyright 'Forex Robot Easy Team'
+#property link      'forexroboteasy.com'
+
+//+------------------------------------------------------------------+
+//| Expert initialization function                                   |
+//+------------------------------------------------------------------+
+int OnInit()
+{
+    // Add initialization code here
+
+    return(INIT_SUCCEEDED);
+}
+
+//+------------------------------------------------------------------+
+//| Expert deinitialization function                                 |
+//+------------------------------------------------------------------+
+void OnDeinit(const int reason)
+{
+    // Add deinitialization code here
+}
+
+//+------------------------------------------------------------------+
+//| Expert tick function                                             |
+//+------------------------------------------------------------------+
+void OnTick()
+{
+    // Add trading algorithm code here
+    // Avoid risky methods such as Grid, Martingale, Doubling, and Averaging
+
+    // Focus on secure transactions and avoid dangerous market situations
+
+    // Make 2-3 transactions per week on average
+}
+
+//+------------------------------------------------------------------+
+//| Expert start function                                            |
+//+------------------------------------------------------------------+
+void OnStart()
+{
+    // Add code here for testing financed accounts
+    // Optimize the structure of the algorithm to adapt to changing market conditions
+
+    // Train the advisor over the past three years (since 2020) to optimize its performance
+}
+
+//+------------------------------------------------------------------+
